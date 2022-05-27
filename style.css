@@ -1,0 +1,109 @@
+* {
+  background-color: rgb(82, 125, 241);
+  font-family: monospace, sans-serif;
+  color: black;
+}
+
+header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 65px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 4px solid black;
+}
+
+#nav-links li {
+  margin: 15px;
+  display: inline;
+}
+
+main {
+  margin: 100px 100px 120px 100px;
+  height: 550px;
+  overflow-y: scroll;
+}
+
+main p {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80%;
+}
+
+#photo-apres {
+  padding-top: 40px;
+  margin: 20px;
+  width: 300px;
+  float: right;
+}
+
+#photocuriosity {
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 300px;
+  float: left;
+  padding-left: 40px;
+}
+
+#curiosity {
+  text-align: center;
+  padding-left: 120px;
+}
+
+#reference {
+  width: 100%;
+  left: 0;
+  text-align: center;
+  height: 30px;
+  font-size: 1.5em;
+}
+
+.links:hover {
+  background-color: yellow;
+}
+
+.links:active {
+  color: aliceblue;
+}
+
+#youtube {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#githublogo {
+  width: 50px;
+}
